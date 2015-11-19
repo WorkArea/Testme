@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Administration</title>
+    <link href="@Url.Content("~/Content/Administrator/Administrator.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/BootStrap/bootstrap.min.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="header">
+        Header
+    </div>
+    <div id="main">
+        <div id="leftPanel">
+            <div>
+                <a href="@Url.Content("~/Administration/Menu")">Menu</a>
+                <a href="@Url.Content("~/Administration/CreateMenu")">Create Menu</a>
+            </div>
+        </div>
+        <div id="rightPanel">
+            @RenderBody()
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+</body>
+</html>

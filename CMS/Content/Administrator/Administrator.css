@@ -1,0 +1,36 @@
+﻿body {
+}
+
+#header
+{
+    height:100px;
+    width: 100%;
+}
+
+#main
+{
+   height:900px;
+   width: 100%; 
+}
+
+#main #leftPanel
+{
+    width:15%;
+    float:left;
+}
+
+#main #rightPanel
+{
+    width:85%;
+    float:right;
+}
+.form-control .field-validation-valid
+{
+    display: none;
+}
+
+.form-control .input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
